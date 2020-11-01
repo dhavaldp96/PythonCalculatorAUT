@@ -7,13 +7,11 @@ def addition(a, b):
     c = a + b
     return c
 
-
 def subtraction(a, b):
     a = int(a)
     b = int(b)
     c = b - a
     return c
-
 
 def multiplication(a, b):
     a = int(a)
@@ -21,25 +19,21 @@ def multiplication(a, b):
     c = a * b
     return c
 
-
 def division(a, b):
     a = int(a)
     b = int(b)
     c = float(b / a)
     return c
 
-
 def square(a):
     a = int(a)
     c = a * a
     return c
 
-
 def sqrt(a):
     a = int(a)
     c = round(math.sqrt(a), 7)
     return c
-
 
 class Calculator:
     result = 0
