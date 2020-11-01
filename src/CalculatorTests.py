@@ -3,6 +3,7 @@ from Calculator import Calculator
 from CsvReader import CsvReader
 
 
+
 class MyTestCase(unittest.TestCase):
 
     def setUp(self) -> None:
@@ -40,7 +41,6 @@ class MyTestCase(unittest.TestCase):
         for row in test_data:
             self.assertEqual(self.calculator.squares(row['Value 1']), int(row['Result']))
             self.assertEqual(self.calculator.result, int(row['Result']))
-
 
     def test_sqrt_method_calculator(self):
         test_data = CsvReader("src/Unit Test Square Root.csv").data
