@@ -34,7 +34,6 @@ def square(a):
     return c
 
 
-
 def sqrt(a):
     a = int(a)
     c = round(math.sqrt(a), 7)
