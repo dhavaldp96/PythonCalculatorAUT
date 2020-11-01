@@ -27,6 +27,7 @@ def division(a, b):
     c = float(b / a)
     return c
 
+
 def square(a):
     a = int(a)
     c = a * a
