@@ -2,7 +2,6 @@ import unittest
 from Calculator import Calculator
 from CsvReader import CsvReader
 
-
 class MyTestCase(unittest.TestCase):
 
     def setUp(self) -> None:
