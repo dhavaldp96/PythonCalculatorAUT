@@ -39,6 +39,7 @@ def sqrt(a):
     c = round(math.sqrt(a), 7)
     return c
 
+
 class Calculator:
     result = 0
 
