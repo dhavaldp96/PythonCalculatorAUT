@@ -20,6 +20,7 @@ def multiplication(a, b):
     c = a * b
     return c
 
+
 def division(a, b):
     a = int(a)
     b = int(b)
