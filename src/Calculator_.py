@@ -30,7 +30,10 @@ def square(a):
     c = a * a
     return c
 
-
+def sqroot(a):
+    a = int(a)
+    c = round(math.sqrt(a), 7)
+    return c
 
 
 class Calculator:
@@ -59,3 +62,6 @@ def squaredig(self, a):
         self.result = square(a)
         return self.result
 
+def square_root(self, a):
+        self.result = sqroot(a)
+        return self.result
