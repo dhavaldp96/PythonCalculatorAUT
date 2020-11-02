@@ -13,6 +13,11 @@ def subtraction(a, b):
     c = b - a
     return c
 
+def multiplication(a, b):
+    a = int(a)
+    b = int(b)
+    c = a * b
+    return c
 
 
 class Calculator:
@@ -29,4 +34,6 @@ def subt(self, a, b):
         self.result = subtraction(a, b)
         return self.result
 
-
+def multi(self, a, b):
+        self.result = multiplication(a, b)
+        return self.result
