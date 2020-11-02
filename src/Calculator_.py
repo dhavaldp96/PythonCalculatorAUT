@@ -19,6 +19,12 @@ def multiplication(a, b):
     c = a * b
     return c
 
+def division(a, b):
+    a = int(a)
+    b = int(b)
+    c = float(b / a)
+    return c
+
 
 class Calculator:
     result = 0
@@ -37,3 +43,8 @@ def subt(self, a, b):
 def multi(self, a, b):
         self.result = multiplication(a, b)
         return self.result
+
+def divi(self, a, b):
+        self.result = round(division(a, b), 9)
+        return self.result
+
