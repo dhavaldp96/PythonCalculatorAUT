@@ -25,6 +25,13 @@ def division(a, b):
     c = float(b / a)
     return c
 
+def square(a):
+    a = int(a)
+    c = a * a
+    return c
+
+
+
 
 class Calculator:
     result = 0
@@ -46,5 +53,9 @@ def multi(self, a, b):
 
 def divi(self, a, b):
         self.result = round(division(a, b), 9)
+        return self.result
+
+def squaredig(self, a):
+        self.result = square(a)
         return self.result
 
